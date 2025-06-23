@@ -3,7 +3,7 @@ import React from "react";
 const Header = () => {
   return (
     <div>
-      <h1 className="bg-green-900">This is the Vanela</h1>
+      <h1>Hello world is the part start </h1>
     </div>
   );
 };
