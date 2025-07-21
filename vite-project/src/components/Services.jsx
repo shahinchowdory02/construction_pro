@@ -148,29 +148,29 @@ const services = [
 
 const Services = () => {
   return (
-    <section id="services" className="py-16 px-4 bg-white">
+    <section id="services" className="py-16 px-4 bg-white   ">
       {/* Section Title */}
-      <div className="text-center !mb-12">
-        <h2 className="text-yellow-500 text-xl lg:text-2xl uppercase font-medium">
+      <div className="text-center !mb-4 ">
+        <h2 className="text-yellow-500 text-2xl lg:text-2xl uppercase font-medium ">
           special offer
         </h2>
-        <h1 className="text-black text-3xl lg:text-5xl uppercase font-bold">
+        <h1 className="text-black text-3xl lg:text-5xl uppercase font-bold text-center ">
           our best services
         </h1>
-        <div className="w-20 h-1 bg-yellow-500 !m-auto text-center mt-3"></div>
+        <div className="w-20 h-1 bg-yellow-500 !m-auto text-center !mt-3"></div>
       </div>
 
-      {/* Services Grid */}
-      <div
-        className="max-w-6xl  flex justify-around items-start
-       gap-5 p-8 "
-      >
+      {/* Services */}
+      <div className="max-w-11/12 grid lg:grid-cols-3 grid-cols-1 justify-center items-start gap-[20px] !m-auto ">
         {services.map((service, index) => (
-          <div key={index} className="p-6 gap-[20px]  ">
-            <div className=" w-[80px] border-2  border-yellow-500 hover:bg-yellow-500 rounded-lg p-2 flex items-center justify-center h-14  text-black text-3xl mb-4 transition-all duration-300">
+          <div
+            className="flex justify-center items-start gap-5 p-8  !mb-10"
+            key={index}
+          >
+            <div className="w-[80px] border-2 border-yellow-500 hover:bg-yellow-500 rounded-lg flex items-center justify-center h-14 text-black text-3xl mb-4 transition-all duration-300">
               {service.icon}
             </div>
-            <div className="flex flex-col justify-center  items-start gap-3 ">
+            <div className="flex flex-col justify-center items-start gap-3 !-mt-1 ">
               <h3 className="text-xl font-bold mb-2 text-black ">
                 {service.title}
               </h3>
