@@ -54,14 +54,17 @@ const clients = [
 
 const Testimonials = () => {
   return (
-    <section className="max-w-7xl !m-auto text-center">
+    <section className="max-w-7xl !m-auto text-center  !mt-8 !mb-8">
       {/* Section Title */}
-      <div className="w-full bg-[#2d2a2a]">
-        <div className="text-center !mb-4">
+      <div
+        className="w-full bg-[#2d2a2a] mb-40
+      "
+      >
+        <div className="text-center mt-52 !mb-4">
           <h2 className="text-yellow-500 text-2xl lg:text-2xl uppercase font-medium ">
             STEP BY STEP
           </h2>
-          <h1 className="text-black text-3xl lg:text-5xl uppercase font-bold text-center">
+          <h1 className="text-black text-3xl lg:text-5xl uppercase font-bold text-center     ">
             HOW IT'S WORKING
           </h1>
           <div className="w-20 h-1 bg-yellow-500 !m-auto text-center !mt-3"></div>
@@ -71,7 +74,7 @@ const Testimonials = () => {
           className=" 
         "
         >
-          <div className="w-[90%] lg:w-full grid lg:grid-cols-3 grid-cols-1 justify-center items-start gap-8 mt-[30px] ">
+          <div className="w-[90%] lg:w-full grid lg:grid-cols-3 grid-cols-1 justify-center items-start gap-8 mt-[30px]   ">
             {clients.map((service, index) => (
               <div
                 key={index}

@@ -148,7 +148,7 @@ const services = [
 
 const Services = () => {
   return (
-    <section id="services" className="py-16 px-4 bg-white   ">
+    <section id="services" className="py-16 px-4 bg-white !pt-12 !pb-12">
       {/* Section Title */}
       <div className="text-center !mb-4 ">
         <h2 className="text-yellow-500 text-2xl lg:text-2xl uppercase font-medium ">

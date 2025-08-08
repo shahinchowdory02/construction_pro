@@ -6,8 +6,8 @@ import Services from "./components/Services";
 import Portfilio from "./components/Portfilio";
 import Testimonials from "./components/Testimonials";
 import Contact from "./components/Contact";
-import Footer from "./components/Footer";
 import Working from "./components/Working";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -19,8 +19,8 @@ function App() {
       <Portfilio />
       <Testimonials />
       <Contact />
-      <Footer />
       <Working />
+      <Footer />
     </>
   );
 }

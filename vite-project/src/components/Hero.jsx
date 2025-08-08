@@ -59,7 +59,7 @@ const Hero = () => {
       <div className="flex flex-col-reverse lg:flex-row items-center justify-between w-full max-w-7xl py-20">
         {/* Left Content */}
         <div className="text-white flex-1 space-y-6">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold uppercase">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold uppercase ">
             We Will Build Your Dream
           </h1>
           <div className="w-24 h-1 bg-yellow-500"></div>
